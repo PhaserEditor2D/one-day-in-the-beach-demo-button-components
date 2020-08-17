@@ -1,0 +1,129 @@
+{
+    "components": [
+        {
+            "name": "StartSceneOnClick",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "sceneKey",
+                    "label": "Scene Key",
+                    "tooltip": "The key of the scene.",
+                    "defValue": "",
+                    "type": {
+                        "id": "string"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "OpenURLOnClick",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "url",
+                    "label": "URL",
+                    "tooltip": "The URL to open when the object is clicked.",
+                    "defValue": "",
+                    "type": {
+                        "id": "string"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "InteractiveObject",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "Checkbox",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "checked",
+                    "label": "Checked",
+                    "tooltip": "If the object has the checked state",
+                    "defValue": true,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "atlasTextureKey",
+                    "label": "Atlas Texture Key",
+                    "tooltip": "The key of the atlas texture that contains all frames",
+                    "defValue": "",
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "checkedTextureFrame",
+                    "label": "Checked Texture Frame",
+                    "tooltip": "The texture frame key to show when the object is checked",
+                    "defValue": "",
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "unckeckedTextureFrame",
+                    "label": "Unchecked Texture Frame",
+                    "tooltip": "The frame key of the texture to show when the object is unchecked.",
+                    "defValue": "",
+                    "type": {
+                        "id": "string"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PushOnClick",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "FloatingObject",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "offset",
+                    "label": "Offset",
+                    "tooltip": "The vertical offset to move the object.",
+                    "defValue": 20,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ClickHandler",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "callback",
+                    "label": "Callback",
+                    "tooltip": "On click callback",
+                    "defValue": "",
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "()=>void"
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Object Script Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}
