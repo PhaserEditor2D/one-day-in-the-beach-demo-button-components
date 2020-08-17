@@ -1,4 +1,4 @@
-# One day in the beach. A showcase game project.
+# One day in the beach. A demo game project.
 
 This is a demo [Phaser Editor 2D](https://phasereditor2d.com) project to show how to create buttons with different behaviors.
 The behaviors are coded as [User Components](https://help.phasereditor2d.com/v3/scene-editor/user-components.html) so no-coding level designers can create the scenes with the drag-and-drop [Scene Editor](https://help.phasereditor2d.com/v3/scene-editor/index.html).
