@@ -3,20 +3,23 @@
 
 /* START OF COMPILED CODE */
 
-class OpenURLOnClick extends EventComponent {
+class OpenURLOnClick {
 	
 	constructor(gameObject) {
-		super(gameObject);
-		
 		gameObject["__OpenURLOnClick"] = this;
 		
-		/** @type {Phaser.GameObjects.Image} */
+		/** @type {Phaser.GameObjects.GameObject} */
 		this.gameObject = gameObject;
 		/** @type {string} */
 		this.url = "";
 		
 		/* START-USER-CTR-CODE */
-		// Write your code here.
+		
+		this.gameObject.on("pointerup", () => {
+
+			open(this.url);
+		});
+
 		/* END-USER-CTR-CODE */
 	}
 	
@@ -27,13 +30,7 @@ class OpenURLOnClick extends EventComponent {
 	
 	/* START-USER-CODE */
 
-	start() {
-
-		this.gameObject.on("pointerup", () => {
-
-			open(this.url);
-		});
-	}
+	// Write your code here.
 
 	/* END-USER-CODE */
 }

@@ -18,8 +18,8 @@
         },
         {
             "name": "OpenURLOnClick",
-            "baseClass": "EventComponent",
-            "gameObjectType": "Phaser.GameObjects.Image",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.GameObject",
             "properties": [
                 {
                     "name": "url",
