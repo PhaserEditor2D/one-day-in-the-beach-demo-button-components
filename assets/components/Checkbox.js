@@ -14,12 +14,10 @@ class Checkbox extends EventComponent {
 		this.gameObject = gameObject;
 		/** @type {boolean} */
 		this.checked = true;
-		/** @type {string} */
-		this.atlasTextureKey = "";
-		/** @type {string} */
-		this.checkedTextureFrame = "";
-		/** @type {string} */
-		this.unckeckedTextureFrame = "";
+		/** @type {{key:string,frame?:string|number}} */
+		this.checkedTextureFrame;
+		/** @type {{key:string,frame?:string|number}} */
+		this.unckeckedTextureFrame;
 		
 		/* START-USER-CTR-CODE */
 		// Write your code here.
@@ -47,9 +45,9 @@ class Checkbox extends EventComponent {
 
 	updateTexture() {
 
-		const frame = this.checked ? this.checkedTextureFrame : this.unckeckedTextureFrame;
+		const textureConfig = this.checked ? this.checkedTextureFrame : this.unckeckedTextureFrame;
 
-		this.gameObject.setTexture(this.atlasTextureKey, frame);
+		this.gameObject.setTexture(textureConfig.key, textureConfig.frame);
 	}
 
 	/* END-USER-CODE */

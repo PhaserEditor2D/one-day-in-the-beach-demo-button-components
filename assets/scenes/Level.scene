@@ -120,9 +120,8 @@
                 "ClickHandler"
             ],
             "Checkbox.checked": false,
-            "Checkbox.atlasTextureKey": "buttons",
-            "Checkbox.checkedTextureFrame": "Button Pack - Green_Button Green - Play.png",
-            "Checkbox.unckeckedTextureFrame": "Button Pack - Green_Button Green - Pause.png",
+            "Checkbox.checkedTextureFrame": "{\"key\":\"buttons\",\"frame\":\"Button Pack - Green_Button Green - Play.png\"}",
+            "Checkbox.unckeckedTextureFrame": "{\"key\":\"buttons\",\"frame\":\"Button Pack - Green_Button Green - Pause.png\"}",
             "FloatingObject.offset": 5,
             "ClickHandler.callback": "() => this.onPauseClicked()",
             "texture": {

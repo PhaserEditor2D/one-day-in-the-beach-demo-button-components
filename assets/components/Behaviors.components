@@ -11,7 +11,7 @@
                     "tooltip": "The key of the scene.",
                     "defValue": "",
                     "type": {
-                        "id": "string"
+                        "id": "asset-key"
                     }
                 }
             ]
@@ -53,21 +53,12 @@
                     }
                 },
                 {
-                    "name": "atlasTextureKey",
-                    "label": "Atlas Texture Key",
-                    "tooltip": "The key of the atlas texture that contains all frames",
-                    "defValue": "",
-                    "type": {
-                        "id": "string"
-                    }
-                },
-                {
                     "name": "checkedTextureFrame",
                     "label": "Checked Texture Frame",
                     "tooltip": "The texture frame key to show when the object is checked",
                     "defValue": "",
                     "type": {
-                        "id": "string"
+                        "id": "texture-config"
                     }
                 },
                 {
@@ -76,7 +67,7 @@
                     "tooltip": "The frame key of the texture to show when the object is unchecked.",
                     "defValue": "",
                     "type": {
-                        "id": "string"
+                        "id": "texture-config"
                     }
                 }
             ]
