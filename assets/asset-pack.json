@@ -83,36 +83,6 @@
                 "key": "Level"
             },
             {
-                "url": "assets/components/StartSceneOnClick.js",
-                "type": "script",
-                "key": "StartSceneOnClick"
-            },
-            {
-                "url": "assets/components/OpenURLOnClick.js",
-                "type": "script",
-                "key": "OpenURLOnClick"
-            },
-            {
-                "url": "assets/components/InteractiveObject.js",
-                "type": "script",
-                "key": "InteractiveObject"
-            },
-            {
-                "url": "assets/components/Checkbox.js",
-                "type": "script",
-                "key": "Checkbox"
-            },
-            {
-                "url": "assets/components/PushOnClick.js",
-                "type": "script",
-                "key": "PushOnClick"
-            },
-            {
-                "url": "assets/components/FloatingObject.js",
-                "type": "script",
-                "key": "FloatingObject"
-            },
-            {
                 "textureURL": "assets/fonts/hyperdrive.png",
                 "fontDataURL": "assets/fonts/hyperdrive.xml",
                 "type": "bitmapFont",
@@ -139,11 +109,6 @@
                 "key": "Star"
             },
             {
-                "url": "assets/components/ClickHandler.js",
-                "type": "script",
-                "key": "ClickHandler"
-            },
-            {
                 "url": [
                     "assets/audio/caribbean-steel-drum-happiness-doug-maxwell.mp3"
                 ],
@@ -156,6 +121,21 @@
                 ],
                 "type": "audio",
                 "key": "bubble"
+            },
+            {
+                "url": [
+                    "assets/scenes/GameSounds.js",
+                    "assets/components/EventComponent.js",
+                    "assets/components/Checkbox.js",
+                    "assets/components/ClickHandler.js",
+                    "assets/components/FloatingObject.js",
+                    "assets/components/InteractiveObject.js",
+                    "assets/components/OpenURLOnClick.js",
+                    "assets/components/PushOnClick.js",
+                    "assets/components/StartSceneOnClick.js"
+                ],
+                "type": "scripts",
+                "key": "Scripts"
             }
         ]
     },
