@@ -95,8 +95,8 @@ class Welcome extends Phaser.Scene {
 		// musicBtn (components)
 		new InteractiveObject(musicBtn);
 		const musicBtnCheckbox = new Checkbox(musicBtn);
-		musicBtnCheckbox.checkedTextureFrame = {"key":"buttons","frame":"Button Pack - Green_Button Green - Music.png"};
-		musicBtnCheckbox.unckeckedTextureFrame = {"key":"buttons","frame":"Button Pack - Gray_Button Gray - Music.png"};
+		musicBtnCheckbox.checkedTexture = {"key":"buttons","frame":"Button Pack - Green_Button Green - Music.png"};
+		musicBtnCheckbox.unckeckedTexture = {"key":"buttons","frame":"Button Pack - Gray_Button Gray - Music.png"};
 		new PushOnClick(musicBtn);
 		const musicBtnClickHandler = new ClickHandler(musicBtn);
 		musicBtnClickHandler.callback = () => GameSounds.toggleMusic();
@@ -104,8 +104,8 @@ class Welcome extends Phaser.Scene {
 		// soundBtn (components)
 		new InteractiveObject(soundBtn);
 		const soundBtnCheckbox = new Checkbox(soundBtn);
-		soundBtnCheckbox.checkedTextureFrame = {"key":"buttons","frame":"Button Pack - Green_Button Green - Sound.png"};
-		soundBtnCheckbox.unckeckedTextureFrame = {"key":"buttons","frame":"Button Pack - Gray_Button Gray - Sound.png"};
+		soundBtnCheckbox.checkedTexture = {"key":"buttons","frame":"Button Pack - Green_Button Green - Sound.png"};
+		soundBtnCheckbox.unckeckedTexture = {"key":"buttons","frame":"Button Pack - Gray_Button Gray - Sound.png"};
 		new PushOnClick(soundBtn);
 		const soundBtnClickHandler = new ClickHandler(soundBtn);
 		soundBtnClickHandler.callback = () => GameSounds.toggleEffects();

@@ -17,9 +17,11 @@ If you find any problem or suggestion, please open an issue in this project.
 
 * Does not load the `GameSounds.js` and `EventComponent.js` in the `index.html` file. Now they are loaded in the Asset Pack file using the new Scripts file type.
 
-* Changes the type of some properties of components:
+* Changes user components properties:
     * The **Checkbox** component uses a Texture Config type.
+    * Rename the property **uncheckedTextureFrame** to **uncheckedTexture**. And other similar names.
     * The **StartSceneOnClick** uses an Asset Key type.
+
 
 ### v1.0.0 - Aug 17, 2020
 

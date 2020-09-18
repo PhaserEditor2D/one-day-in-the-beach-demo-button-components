@@ -142,8 +142,8 @@
                 "PushOnClick",
                 "ClickHandler"
             ],
-            "Checkbox.checkedTextureFrame": "{\"key\":\"buttons\",\"frame\":\"Button Pack - Green_Button Green - Music.png\"}",
-            "Checkbox.unckeckedTextureFrame": "{\"key\":\"buttons\",\"frame\":\"Button Pack - Gray_Button Gray - Music.png\"}",
+            "Checkbox.checkedTexture": "{\"key\":\"buttons\",\"frame\":\"Button Pack - Green_Button Green - Music.png\"}",
+            "Checkbox.unckeckedTexture": "{\"key\":\"buttons\",\"frame\":\"Button Pack - Gray_Button Gray - Music.png\"}",
             "ClickHandler.callback": "() => GameSounds.toggleMusic()",
             "texture": {
                 "key": "buttons",
@@ -163,8 +163,8 @@
                 "PushOnClick",
                 "ClickHandler"
             ],
-            "Checkbox.checkedTextureFrame": "{\"key\":\"buttons\",\"frame\":\"Button Pack - Green_Button Green - Sound.png\"}",
-            "Checkbox.unckeckedTextureFrame": "{\"key\":\"buttons\",\"frame\":\"Button Pack - Gray_Button Gray - Sound.png\"}",
+            "Checkbox.checkedTexture": "{\"key\":\"buttons\",\"frame\":\"Button Pack - Green_Button Green - Sound.png\"}",
+            "Checkbox.unckeckedTexture": "{\"key\":\"buttons\",\"frame\":\"Button Pack - Gray_Button Gray - Sound.png\"}",
             "ClickHandler.callback": "() => GameSounds.toggleEffects()",
             "texture": {
                 "key": "buttons",

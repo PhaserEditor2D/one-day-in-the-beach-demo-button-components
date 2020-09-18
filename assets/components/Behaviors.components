@@ -53,8 +53,8 @@
                     }
                 },
                 {
-                    "name": "checkedTextureFrame",
-                    "label": "Checked Texture Frame",
+                    "name": "checkedTexture",
+                    "label": "Checked Texture",
                     "tooltip": "The texture frame key to show when the object is checked",
                     "defValue": "",
                     "type": {
@@ -62,8 +62,8 @@
                     }
                 },
                 {
-                    "name": "unckeckedTextureFrame",
-                    "label": "Unchecked Texture Frame",
+                    "name": "unckeckedTexture",
+                    "label": "Unchecked Texture",
                     "tooltip": "The frame key of the texture to show when the object is unchecked.",
                     "defValue": "",
                     "type": {

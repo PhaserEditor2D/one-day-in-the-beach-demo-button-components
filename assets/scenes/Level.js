@@ -66,8 +66,8 @@ class Level extends Phaser.Scene {
 		new PushOnClick(pauseBtn);
 		const pauseBtnCheckbox = new Checkbox(pauseBtn);
 		pauseBtnCheckbox.checked = false;
-		pauseBtnCheckbox.checkedTextureFrame = {"key":"buttons","frame":"Button Pack - Green_Button Green - Play.png"};
-		pauseBtnCheckbox.unckeckedTextureFrame = {"key":"buttons","frame":"Button Pack - Green_Button Green - Pause.png"};
+		pauseBtnCheckbox.checkedTexture = {"key":"buttons","frame":"Button Pack - Green_Button Green - Play.png"};
+		pauseBtnCheckbox.unckeckedTexture = {"key":"buttons","frame":"Button Pack - Green_Button Green - Pause.png"};
 		const pauseBtnFloatingObject = new FloatingObject(pauseBtn);
 		pauseBtnFloatingObject.offset = 5;
 		const pauseBtnClickHandler = new ClickHandler(pauseBtn);
