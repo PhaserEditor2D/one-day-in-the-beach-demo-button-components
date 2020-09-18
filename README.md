@@ -13,6 +13,10 @@ If you find any problem or suggestion, please open an issue in this project.
 
 ## Change log
 
+### v1.0.1 - Sep 18, 2020
+
+* Does not load the `GameSounds.js` and `EventComponent.js` in the `index.html` file. Now they are loaded in the Asset Pack file using the new Scripts file type. 
+
 ### v1.0.0 - Aug 17, 2020
 
 * First upload.
