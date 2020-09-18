@@ -15,6 +15,8 @@ If you find any problem or suggestion, please open an issue in this project.
 
 ### v1.0.1 - Sep 18, 2020
 
+Compatible with Phaser Editor 2D v3.7.0.
+
 * Does not load the `GameSounds.js` and `EventComponent.js` in the `index.html` file. Now they are loaded in the Asset Pack file using the new Scripts file type.
 
 * Changes user components properties:
@@ -24,6 +26,8 @@ If you find any problem or suggestion, please open an issue in this project.
 
 
 ### v1.0.0 - Aug 17, 2020
+
+Compatible with Phaser Editor 2D v3.6.0.
 
 * First upload.
 
